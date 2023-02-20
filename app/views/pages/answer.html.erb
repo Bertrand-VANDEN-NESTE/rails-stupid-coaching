@@ -1,0 +1,16 @@
+<div class="container mt-5">
+  <h1>Stupid Coaching</h1>
+  <div class="border-start border-3">
+    <div class="ps-4">
+      <%= @ask %>
+      <p class="fst-italic">- You</p>
+    </div>
+  </div>
+  <div class="border-start border-3">
+    <div class="bg-color-input ps-4">
+      <%= @answer %>
+      <p class="fst-italic">- Your coach</p>
+    </div>
+  </div>
+  <%= link_to "Come back to Ask", ask_path %>
+</div>
